@@ -1,0 +1,88 @@
+#ribon{
+    background-color: rgb(20, 184, 28);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px,rgba(28, 150, 34, 0.849) 25px, rgba(28, 150, 34,0.849) 40px);
+}
+#ribon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+#logo{
+    background-color: rgb(20, 221, 30);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#logo img{
+    position: relative;
+    margin-top: -30px;
+}
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+#separator_ribon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator_ribon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+#quienes_somos{
+    background-color: black;
+    background: url(_44c2efc5-090f-40b3-9b07-aeb5153cb926.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -20px;
+}
+#separator-section{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2%;
+}
+#separator-section .content{
+    background: url(bg-03.png);
+    width: 110%;
+    height: 100px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#divicion-footer{
+    background-color: var(--bs-green);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#divicion-footer .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
